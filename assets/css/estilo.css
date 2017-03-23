@@ -1,0 +1,22 @@
+body{
+  background-color: #DDA0DD;
+}
+h1{
+  font-size: 50px;
+  font-family: sans-serif;
+}
+input{
+  width:91%;
+  padding: 15px 20px;
+  font-size: 2em;
+
+}
+input[type = button]{
+  width:100px;
+  height:100px;
+  padding: 5px;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 1.5em;
+}

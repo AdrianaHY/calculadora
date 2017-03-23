@@ -1,3 +1,4 @@
+
 //Para mostrar los números con click
   function mostrarNumero(num){
     var guardarNumero = document.formulario.resultado.value;
@@ -19,4 +20,16 @@ function validarNumero (event){
   if(ascci < 42 || ascci > 57){
     return false;
   }
+}
+
+//Para eliminar el último número
+function eliminarUltimoNumero(){
+  var anterior = document.formulario.contenedor.value;
+  var nuevoValor = anterior.substring(0,anterior.length-1);
+  document.getElementById("contenedor").value = nuevoValor;
+}
+
+//Para borrar todo
+function borrar(){
+  document.formulario.contenedor.value = "";
 }

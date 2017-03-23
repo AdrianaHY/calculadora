@@ -10,8 +10,8 @@
     <div class = "container" align = "center">
       <h1>Calculadora</h1>
 
-      <input type = "text" name = "resultado" id = "contenedor">
-      <table colspan = "5"
+      <input type = "text" name = "resultado" id = "contenedor" onkeypress="return validarNumero(event)">
+      <!-- <table colspan = "5" -->
 
       <table>
       <td><input type = "button" value = "7" onclick = "mostrarNumero(value)"/></td>
